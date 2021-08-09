@@ -7,6 +7,7 @@ import logo2 from '../assets/images/Logo.jpg';
 import face from '../assets/images/face.png';
 import insta from '../assets/images/insta.png';
 import email from '../assets/images/email.png';
+import sucursales from '../assets/images/sucursales.png';
 
 function Contacto(){
     return(
@@ -42,6 +43,11 @@ function Contacto(){
                                 <a href="https://mail.google.com/"><img src={email}></img></a>                                
                                 <h4>Email</h4>
                                 <h3>facturacion123@gmail.com</h3>
+                            </div>
+                            <div className="col4">
+                                <a href="https://www.google.com/maps/?hl=es"><img src={sucursales}></img></a>                                
+                                <h3>Direccion Sucursal 1.</h3>
+                                <h3>Direccion Sucursal 2.</h3>
                             </div>
                         </div>                   
                     </div>

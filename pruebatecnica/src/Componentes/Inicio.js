@@ -106,12 +106,20 @@ function Inicio(){
                         <img src={img3} className="img3"></img>
                     </div>                    
                 </div>
-
-                <div className="sucursales">
-
-                </div>
                 <div className="planes">
-
+                    <div className="basico">
+                        <h2>PLAN BÁSICO / Q120 mensual</h2>
+                        <p>Este plan esta diseñado para aquellas empresas
+                            que estan empezando con la facturación electrónica
+                            y requieren para un mejor funcionamiento.
+                        </p>
+                    </div>
+                    <div className="premium">
+                        <h2>PLAN PREMIUM / Q300 mensual</h2>
+                        <p>Este plan esta diseñado para aquellas empresas
+                            que requieren de una facturación con altos estandares y soporte.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

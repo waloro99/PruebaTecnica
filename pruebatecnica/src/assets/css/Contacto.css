@@ -115,11 +115,15 @@
 
 .ColumnasC .col3{
     width: 33%;
-    margin-right: 10%;
     align-items: center;
     background-color: white;
 }
 
-
+.ColumnasC .col4{
+    width: 33%;
+    margin-right: 10%;
+    align-items: center;
+    background-color: white;
+}
 
 

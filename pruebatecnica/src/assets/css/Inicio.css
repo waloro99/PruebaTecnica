@@ -70,11 +70,50 @@
 
 .rightSite{
     width: 49%;
-    margin-right: 10%;
-    margin-top: 1%;
+    margin-top: 3%;
     align-items: center;
     background-color: white;
     min-height: 60vh;
+}
+
+.planes{
+    width: 30%;
+    margin-left: 4%;
+    margin-top: 5%;
+    align-items: center;
+    background-color: white;
+    min-height: 60vh;
+}
+
+.planes .basico{
+    margin-right: 4%;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.planes .premium{
+    margin-right: 4%;
+    margin-top: 35%;
+    align-items: center;
+}
+
+.planes h2{
+    color: #06001B;
+    font-family: Lato;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 1%;
+    align-items: center;
+}
+
+.planes p{
+    color: #06001B;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 5%;
 }
 
 .rightSite .img1{
