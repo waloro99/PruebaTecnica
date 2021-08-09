@@ -6,7 +6,6 @@ import logo from '../assets/images/logo horizontal.png';
 import img1 from '../assets/images/cariño1.jpg';
 import img2 from '../assets/images/cariño 2.jpg';
 import img3 from '../assets/images/cariño 4.jpg';
-import Login from './login';
 import { Link } from 'react-router-dom';
 
 const useStyles=makeStyles((theme)=>({
@@ -71,10 +70,10 @@ function Inicio(){
             </div>           
             <div align="center">
                 
-                <Button color="primary" className={styles.button}><Link to="/menu"><Login/></Link></Button>
+                <Button color="primary" className={styles.button}><Link to="/menu"></Link></Button>
             </div>
             <div align="center" className={styles.olvidar}>
-                <a href="http://ec2co-ecsel-4fcmumuxsm2f-288099109.us-east-1.elb.amazonaws.com:3000/">Registrarse</a>
+                <p>Registrarse</p>
             </div>
         </div>
     )

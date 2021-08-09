@@ -29,19 +29,19 @@ function Contacto(){
                         <h2>INFORMACIÓN</h2>
                         <div className="ColumnasC">
                             <div className="col1">
-                                <a href="https://www.facebook.com/blacksalegt/"><img src={face}></img></a>
+                                <a href="https://www.facebook.com/"><img src={face}></img></a>
                                 <h4>Facebook</h4>
-                                <h3>Black Sale.</h3>
+                                <h3>Facturacion 123.</h3>
                             </div>
                             <div className="col2">
-                            <a href="https://www.instagram.com/blacksalegt/"><img src={insta}></img></a>                                
+                            <a href="https://www.instagram.com/"><img src={insta}></img></a>                                
                                 <h4>Instagram</h4>
-                                <h3>@blacksalegt</h3>
+                                <h3>@facturacion123</h3>
                             </div>
                             <div className="col3">
                                 <a href="https://mail.google.com/"><img src={email}></img></a>                                
                                 <h4>Email</h4>
-                                <h3>blacksale2014@gmail.com</h3>
+                                <h3>facturacion123@gmail.com</h3>
                             </div>
                         </div>                   
                     </div>

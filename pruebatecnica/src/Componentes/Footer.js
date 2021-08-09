@@ -18,11 +18,11 @@ function Footer(){
                             </div>
                             <div className="rightCol">
                                 <div className="arribaCol">
-                                    <li><a href="https://www.facebook.com/blacksalegt/"><img src={face}></img></a></li>
-                                    <li><a href="https://www.instagram.com/blacksalegt/"><img src={insta}></img></a></li>
+                                    <li><a href="https://www.facebook.com/"><img src={face}></img></a></li>
+                                    <li><a href="https://www.instagram.com/"><img src={insta}></img></a></li>
                                 </div>
                                 <div className="abajoCol">
-                                    <li>@blacksalegt</li>
+                                    <li>@facturar123</li>
                                 </div>
                             </div>
                         </ui>                      
@@ -32,11 +32,9 @@ function Footer(){
                         <ui className = "list-unstyled2">
                             <div className="leftCol2">
                                 <li><Link to="/">Inicio</Link></li>
-                                <li><Link to="/Productos">Productos</Link></li>
                             </div>
                             <div className="rightCol2">
-                                <li><Link to="/Productos">Promociones</Link></li>
-                                <li><Link to="/Productos">Nuevo Ingreso</Link></li>
+                                <li><Link to="/contacto">Contacto</Link></li>
                             </div>
                         </ui> 
                     </div>
@@ -52,7 +50,7 @@ function Footer(){
                 <hr className="barra"></hr>
                 <div className="row">
                     <p className="col-sm">
-                        Black Sale &copy;{new Date().getFullYear()} All Rights Reserved
+                        Empresa Facturacion 123 &copy;{new Date().getFullYear()} All Rights Reserved
                     </p>
                 </div>
             </div>
