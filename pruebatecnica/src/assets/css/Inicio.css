@@ -78,22 +78,25 @@
 }
 
 .rightSite .img1{
-    height: 250px;
-    width: 200px;
+    height: 40%;
+    width: 50%;
 }
 
 .rightSite .img2{
-    height: 180px;
-    width: 200px;
+    height: 100%;
+    width: 50%;
+    margin-right: 2%;
+    margin-top: 2%;
 }
 
 .rightSite .img3{
-    height: 180px;
-    width: 200px;
+    height: 30%;
+    width: 50%;
 }
 
 .rightSite .gemelosImg{
     display: flex;
+    margin: 1%;
 }
 
 /* DISEÑO PARA APP */

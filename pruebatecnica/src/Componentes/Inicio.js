@@ -53,19 +53,19 @@ function Inicio(){
     const body=(
         <div className={styles.modal}>
             <div align="center">
-                <h1>Iniciar Sesión</h1>
+                <h1>Enviar Mensaje</h1>
                 <p>
-                Bienvenido a Black Sale ... 
+                Bienvenido a Facturacion123 ... 
                 <br/>
                 Si no cuentas con un correo comunicate con 
                 <br/>
-                Black Sale.
+                Facturacion123.
                 </p>
             </div>
             <div align="center">
                 <TextField label="Correo electrónico" type="email" className={styles.textField}/>
                 <br/>
-                <TextField label="Contraseña" type="password"  className={styles.textField}/>
+                <TextField label="Mensaje" type="text"  className={styles.textField}/>
                 <br/> <br/>
             </div>           
             <div align="center">
@@ -73,7 +73,7 @@ function Inicio(){
                 <Button color="primary" className={styles.button}><Link to="/menu"></Link></Button>
             </div>
             <div align="center" className={styles.olvidar}>
-                <p>Registrarse</p>
+                <p>Enviar mensaje</p>
             </div>
         </div>
     )
@@ -85,13 +85,14 @@ function Inicio(){
                     <img src={logo}></img>
                     <h3>¡¡Tu eliges, nosotros sorprendemos !!</h3>
                     <p>
-                        Si desea estar pendiente de todas las novedades, 
-                        promociones y productos puedes crear tu cuenta y seguir 
-                        disfrutando de los mejores productos.
+                        Facturacion 123 es una empresa llena de iniciativa,
+                        buena mentalidad y contamos con una amplia lista
+                        de clientes que confian en nosotros, que esperas 
+                        para ser parte de la facturación electronica.
                     </p>
                     <input type="email" placeholder="Correo electrónico"></input>
                     <input type="password" placeholder="Contraseña"></input>
-                    <Button className={styles.button} onClick={()=>abrirCerrarModal()}>Registrarse</Button>
+                    <Button className={styles.button} onClick={()=>abrirCerrarModal()}>Contactanos</Button>
                     <Modal
                         open={modal}
                         onClose={abrirCerrarModal}>
@@ -104,6 +105,13 @@ function Inicio(){
                         <img src={img2} className="img2"></img>
                         <img src={img3} className="img3"></img>
                     </div>                    
+                </div>
+
+                <div className="sucursales">
+
+                </div>
+                <div className="planes">
+
                 </div>
             </div>
         </div>
